@@ -1,0 +1,81 @@
+#profile-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#profile-form h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#profile-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#profile-form input[type=text],
+#profile-form input[type=email],
+#profile-form input[type=tel] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  font-family: inherit;
+  color: #333;
+  transition: border-bottom-color 0.3s ease;
+}
+#profile-form input[type=text]:focus,
+#profile-form input[type=email]:focus,
+#profile-form input[type=tel]:focus {
+  outline: none;
+  border-bottom-color: #2196F3;
+}
+#profile-form input[type=text]:disabled,
+#profile-form input[type=email]:disabled,
+#profile-form input[type=tel]:disabled {
+  background-color: #f2f2f2;
+}
+#profile-form .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#profile-form .button-container button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#profile-form .button-container button:hover {
+  background-color: #2196F3;
+}
+#profile-form .button-container button.edit-button {
+  background-color: #FF9800;
+}
+#profile-form .button-container button.edit-button:hover {
+  background-color: #F57C00;
+}
+#profile-form .button-container button.save-button {
+  background-color: #4CAF50;
+}
+#profile-form .button-container button.save-button:hover {
+  background-color: #388E3C;
+}
+#profile-form .button-container button.logout-button {
+  background-color: #e75e5e;
+}
+#profile-form .button-container button.logout-button:hover {
+  background-color: #ff0000;
+}/*# sourceMappingURL=profil.css.map */

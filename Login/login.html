@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autentificare</title>
+    <link rel="stylesheet" href="log.css">
+  </head>
+  <body>
+    <h1>Autentificare</h1>
+    <form>
+      <label for="username">Nume de utilizator:</label>
+      <input type="text" id="username" name="username" required><br>
+
+      <label for="password">Parolă:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <div class="remember-me">
+        <label >Remember Me</label>
+        <input type="checkbox" name="remember-me" id="remember-me">
+      </div>
+      
+      <div id="butoane">
+        <input type="button" value="Autentificare" onclick="login()">
+        <input type="button" value="Inregistreaza-te!" onclick="registerPage()">
+      </div>
+    </form>
+    <script src="authentification.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainpage.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#" id="user-link">Cont</a>
+      <a href="#">Acasa</a>
+      <a href="#" id="cart">Cos</a>
+    </div>
+    <div class="main">
+      <h1>Bun venit la Masa Regala</h1>
+      <p>
+        Oferim mâncare delicioasă la prețuri excelente. Verificați meniul nostru de mai jos.
+      </p>
+      <div class="card" id="menu-card">
+        <img src="/images/menu.png" alt="Menu">
+        <div class="card-overlay">
+          <h3>Menu</h3>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <div class="footer-left">
+      <svg
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+        width="75"
+        height="75"
+      >
+        <rect
+          x="0"
+          y="0"
+          width="100"
+          height="100"
+          fill="#ffffff"
+          opacity="0.1"
+        />    
+        <circle cx="50" cy="50" r="30" fill="#FFD700" />
+        <text
+          x="50"
+          y="55"
+          font-size="9"
+          font-family="Arial"
+          text-anchor="middle"
+          fill="#000"
+        >
+         Masa Regala
+        </text>
+      </svg>
+      <div class="footer-bottom">
+        <a href="#" id="feedback">Dați-ne feedback-ul dumneavoastră</a>
+      </div>
+    </div>
+    <div class="footer-center">
+      <canvas id="myCanvas"></canvas>
+    </div>
+    <div class="footer-right">
+      <div class="social-icons">
+        <a href="#" class="facebook-icon social-icon"></a>
+        <a href="#" class="twitter-icon social-icon"></a>
+        <a href="#" class="instagram-icon social-icon"></a>
+      </div>
+      <p>
+        Puteți lua legătura cu noi la adresa <br>
+        123 Strada Principala, Constanta<br>
+        sau ne puteți suna la numărul 0241-123-456.
+      </p>
+    </div>
+  </footer>
+  <script src="mainpage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  </body>
+</html>

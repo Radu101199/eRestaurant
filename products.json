@@ -1,0 +1,215 @@
+{
+  "products": [
+    {
+    "id": "1",
+    "name": "Bruschetta",
+    "category": "aperitive",
+    "description": "Pâine prăjită acoperită cu roșii tocate, usturoi și busuioc.",
+    "price": 8.99
+  },
+  {
+    "id": "2",
+    "name": "Calamari prăjiți",
+    "category": "aperitive",
+    "description": "Inele de calamari crocante servite cu sos marinara.",
+    "price": 12.99
+  },
+  {
+    "id": "3",
+    "name": "Dip de spanac și anghinare",
+    "category": "aperitive",
+    "description": "O combinație cremoasă de spanac, inimi de anghinare și brânză topită.",
+    "price": 10.99
+  },
+  {
+    "id": "4",
+    "name": "Bastoncini de mozzarella",
+    "category": "aperitive",
+    "description": "Bastoncini de mozzarella prăjiți și aurii servite cu sos marinara.",
+    "price": 9.99
+  },
+  {
+    "id": "5",
+    "name": "Pâine cu usturoi",
+    "category": "aperitive",
+    "description": "Feliile de pâine cu usturoi calde, unsă cu ulei de măsline și presărate cu ierburi aromatice.",
+    "price": 6.99
+  },
+  {
+    "id": "6",
+    "name": "Spaghetti Bolognese",
+    "category": "principal",
+    "description": "Pasta Spaghetti cu sos de carne consistent făcut cu carne de vită, roșii și vin roșu.",
+    "price": 15.99
+  },
+  {
+    "id": "7",
+    "name": "Pui Alfredo",
+    "category": "principal",
+    "description": "Piept de pui grillat servit cu sos Alfredo cremos peste paste Fettuccine.",
+    "price": 17.99
+  },
+  {
+    "id": "8",
+    "name": "Pizza Margherita",
+    "category": "principal",
+    "description": "Pizza italiană tradițională cu sos de roșii, brânză mozzarella și busuioc proaspăt.",
+    "price": 14.99
+  },
+  {
+    "id": "9",
+    "name": "Lasagna",
+    "category": "principal",
+    "description": "Straturi de paste, carne de vită, brânză și sos de roșii coapte la perfecțiune.",
+    "price": 16.99
+  },
+  {
+    "id": "10",
+    "name": "Pasta Pesto",
+    "category": "principal",
+    "description": "Paste Penne amestecate cu sos pesto cremos și acoperite cu nuci de pin.",
+    "price": 13.99
+  },
+  {
+    "id": "11",
+    "name": "Salata cu somon fume",
+    "category": "salate",
+    "description": "Salată de rucola și spanac cu somon afumat, felii de portocală, nuci și dressing de muștar dulce.",
+    "price": 18.99
+    },
+    {
+    "id": "12",
+    "name": "Salată grecească",
+    "category": "salate",
+    "description": "Mix de salate cu roșii, castraveți, ceapă roșie, brânză feta și măsline Kalamata.",
+    "price": 10.99
+    },
+    {
+    "id": "13",
+    "name": "Salată Caesar cu pui",
+    "category": "salate",
+    "description": "Piept de pui la grătar servit pe un pat de salată romaine proaspătă, crutoane, parmezan și sos Caesar.",
+    "price": 12.99
+    },
+    {
+    "id": "14",
+    "name": "Salată grecească",
+    "category": "salate",
+    "description": "O salată grecească clasică cu roșii, castraveți, ceapă roșie, brânză feta și măsline Kalamata.",
+    "price": 10.99
+    },
+    {
+    "id": "15",
+    "name": "Supă de roșii",
+    "category": "supe",
+    "description": "O supă clasică de roșii făcută cu roșii proaspete și amestec de ierburi și condimente.",
+    "price": 8.99
+    },
+    {
+    "id": "16",
+    "name": "Budincă de homar",
+    "category": "supe",
+    "description": "O supă cremoasă făcută cu bucăți de homar proaspăt și un amestec de ierburi și condimente.",
+    "price": 16.99
+    },
+    {
+    "id": "17",
+    "name": "Limonadă",
+    "category": "bauturi",
+    "description": "Suc proaspăt de lămâie amestecat cu apă și o cantitate mică de zahăr.",
+    "price": 4.99
+    },
+    {
+    "id": "18",
+    "name": "Ceai rece",
+    "category": "bauturi",
+    "description": "Ceai rece proaspăt preparat servit cu o felie de lămâie.",
+    "price": 3.99
+    },
+    {
+    "id": "19",
+    "name": "Tiramisu",
+    "category": "deserturi",
+    "description": "Desert italian clasic preparat cu biscuiți Savoiardi, cafea espresso, brânză mascarpone și pudră de cacao.",
+    "price": 7.99
+    },
+    {
+    "id": "20",
+    "name": "Cheesecake",
+    "category": "deserturi",
+    "description": "Cheesecake cremos cu crustă de biscuiți și alegerea dvs. de topping.",
+    "price": 8.99
+    },
+
+    {
+      "id": "21",
+      "name": "Salată cu somon la grătar",
+      "category": "salate",
+      "description": "Verdeață proaspătă cu somon la grătar, roșii cherry, ceapă roșie și sos de oțet balsamic.",
+      "price": 14.99
+      },
+      {
+      "id": "22",
+      "name": "Chili vegetarian",
+      "category": "supe",
+      "description": "Un chili sățios și picant făcut cu fasole, legume și un amestec de condimente.",
+      "price": 10.99
+      },
+      {
+      "id": "23",
+      "name": "Ceai rece",
+      "category": "bauturi",
+      "description": "Ceai rece clasic făcut cu ceai proaspăt preparat și servit cu lămâie.",
+      "price": 3.99
+      },
+      {
+      "id": "24",
+      "name": "Tort de ciocolată",
+      "category": "deserturi",
+      "description": "Tort de ciocolată decadent cu un topping de ganache de ciocolată.",
+      "price": 8.99
+      },
+      {
+      "id": "25",
+      "name": "Risotto cu ciuperci",
+      "category": "principal",
+      "description": "Orez Arborio cremos gătit cu ciuperci, vin alb și brânză Parmezan.",
+      "price": 16.99
+      },
+      {
+      "id": "26",
+      "name": "Cafea cu gheață",
+      "category": "bauturi",
+      "description": "Cafea răcită făcută cu cafea proaspăt preparată, gheață și lapte sau smântână.",
+      "price": 4.99
+      },
+      {
+      "id": "27",
+      "name": "Supă minestrone",
+      "category": "supe",
+      "description": "O supă italiană clasică cu legume, fasole și paste într-un bulion pe bază de roșii.",
+      "price": 9.99
+      },
+      {
+      "id": "28",
+      "name": "Fettuccine Alfredo",
+      "category": "principal",
+      "description": "Sos Alfredo cremos peste paste fettuccine, garnisit cu pătrunjel proaspăt.",
+      "price": 14.99
+      },
+      {
+      "id": "29",
+      "name": "Penne Arrabiata",
+      "category": "principal",
+      "description": "Paste penne cu un sos de roșii picant făcut cu usturoi, ardei iute măcinat și brânză Parmezan.",
+      "price": 13.99
+      },
+      {
+      "id": "30",
+      "name": "Cappuccino",
+      "category": "bauturi",
+      "description": "Espresso acoperit cu lapte spumat și un strat de lapte încălzit.",
+      "price": 4.99
+      }
+]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoppingkart.css">
+</head>
+<body>
+    <h1>Cos Cumparaturi</h1>
+    <div id="items"></div>
+    <div id="total">
+      Total: <span id="total-amount"></span>
+    </div>
+    <select id="adresa" name="adresa">
+      <option value="" disabled selected>Alege orasul</option>
+      <option value="">Bucuresti</option>
+      <option value="">Brasov</option>
+      <option value="">Constanta</option>
+      <option value="">Cluj-Napoca</option>
+    </select>
+
+    <form id="address-form">
+      <label for="address">Adresa:</label>
+      <input type="text" id="address" name="address">
+    </form>
+    <div id="payment">
+      <p>Selecteaza metoda de plata:</p>
+      <input type="radio" id="cash" name="payment" value="cash" checked>
+      <label for="cash">Numerar</label>
+      <input type="radio" id="card" name="payment" value="card">
+      <label for="card">Card</label>
+    </div>
+    <form id="card-form" style="display: none;">
+      <label for="card-number">Numar Card:</label>
+      <input type="text" id="card-number" name="card-number" required pattern="[0-9]{16}" title="Introdu un numar de card in fromat de 16 cifre!">
+      <label for="expiry-date">Data Expirare:</label>
+      <input type="text" id="expiry-date" name="expiry-date" required pattern="(0[1-9]|1[0-2])\/[0-9]{2}" title="Introdu data de expirare in fromat MM/YY">
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required pattern="[0-9]{3}" title="Introdu codul CVV de 3 cifre">
+    </form>
+    <button id="place-order-btn" class="butoane">Plaseaza Comanda!</button>
+    <button id="cos-returbtn" class="butoane">Mai adauga produse!</button>
+    <script src="shoppingkart.js"></script>
+</body>
+</html>

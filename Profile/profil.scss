@@ -1,0 +1,94 @@
+#profile-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+        
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        font-size: 16px;
+        font-family: inherit;
+        color: #333;
+        transition: border-bottom-color 0.3s ease;
+        
+        &:focus {
+          outline: none;
+          border-bottom-color: #2196F3;
+        }
+        
+        &:disabled {
+          background-color: #f2f2f2;
+        }
+      }
+      
+      
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        
+        button {
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          font-size: 16px;
+          font-weight: bold;
+          color: #fff;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          
+          &:hover {
+            background-color: #2196F3;
+          }
+          
+          &.edit-button {
+            background-color: #FF9800;
+            
+            &:hover {
+              background-color: #F57C00;
+            }
+          }
+          
+          &.save-button {
+            background-color: #4CAF50;
+            
+            &:hover {
+              background-color: #388E3C;
+            }
+          }
+          &.logout-button{
+            background-color: #e75e5e;
+            
+            &:hover{
+              background-color: #ff0000;
+            }
+          }
+        }
+      }
+    }
+  
+  

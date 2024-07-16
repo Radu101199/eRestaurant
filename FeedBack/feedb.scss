@@ -1,0 +1,108 @@
+$primary-color: #f5f5f5;
+$secondary-color: #e6e6e6;
+$accent-color: #4a8bb6;
+$font-color: #333;
+
+
+body {
+  background-color: $primary-color;
+  text-align: center;
+}
+
+form {
+  background-color: $secondary-color;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: $font-color;
+  text-align: center;
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: $font-color;
+}
+
+input,
+select,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+select option:first-child {
+  color: $accent-color;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: $accent-color;
+  color: $font-color;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover{
+  background-color: darken($accent-color, 10%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height if needed */
+}
+
+#reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0px 10px $accent-color;
+}
+
+#rating{
+  text-align: center;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.review h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.review p {
+  font-size: 14px;
+  margin-left:15px;
+}
+
+.review .title-and-date {
+  display: flex;
+  align-items: center;
+}
